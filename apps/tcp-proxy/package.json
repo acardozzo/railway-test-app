@@ -1,0 +1,10 @@
+{
+  "name": "railway-test-tcp-proxy",
+  "version": "1.0.0",
+  "description": "TCP proxy test for Railway-like platform",
+  "main": "src/proxy.js",
+  "scripts": {
+    "start": "node src/proxy.js"
+  },
+  "dependencies": {}
+}

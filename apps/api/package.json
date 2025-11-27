@@ -1,0 +1,16 @@
+{
+  "name": "railway-test-api",
+  "version": "1.0.0",
+  "description": "Test application for Railway-like platform E2E tests",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "start:worker": "node src/worker.js",
+    "start:cron": "node src/cron.js",
+    "build": "echo 'Build completed'",
+    "migrate": "echo 'Migrations completed'"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
